@@ -1,14 +1,14 @@
-@font-face {
-    font-family: "OpenSans-SemiBold";
-    src: url("/src/assets/fonts/opensans/OpenSans-SemiBold.ttf");
-    font-weight: 600;
-}
+// @font-face {
+//     font-family: "OpenSans-SemiBold";
+//     src: url("/src/assets/fonts/opensans/OpenSans-SemiBold.ttf");
+//     font-weight: 600;
+// }
 
-@font-face {
-    font-family: "OpenSans-Regular";
-    src: url("/src/assets/fonts/opensans/OpenSans-Regular.ttf");
-    font-weight: 400;
-}
+// @font-face {
+//     font-family: "OpenSans-Regular";
+//     src: url("/src/assets/fonts/opensans/OpenSans-Regular.ttf");
+//     font-weight: 400;
+// }
 
 @mixin font-setup($font-family, $font-size, $font-weight: normal) {
     font-family: $font-family, sans-serif;
