@@ -5,20 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div>
-        <input class="input" :placeholder="props.label" />
-    </div>
+    <input type="text" placeholder=" " />
 </template>
 
-<style scoped>
-.input {
-    width: 21.5rem;
-    height: 4.6rem;
-    padding: 2.8rem 1.2rem 2.8rem 1.2rem;
-    background-color: #FFF7F3;
-    font-size: 1.6rem;
-    color: #F95707;
-    border-radius: 10rem;
-    border: none;
-}
-</style>
+<style lang="scss" scoped></style>
