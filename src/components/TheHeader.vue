@@ -53,14 +53,37 @@ import TheButton from '@/components/buttons/TheButton.vue'
         </div>
 
         <div class="call-me">
-            <TheButton class="call-me_btn" />
+            <TheButton class="call-me_btn">Перезвоните мне</TheButton>
         </div>
+    </div>
+    <div class="nav">
+        <RouterLink to="/">
+            <p class="nav_item">ЛОТЕРЕЯ</p>
+        </RouterLink>
+        <RouterLink to="/">
+            <p class="nav_item">МЕТАЛЛОЛОМ</p>
+        </RouterLink>
+        <RouterLink to="/">
+            <p class="nav_item">УСЛУГИ</p>
+        </RouterLink>
+        <RouterLink to="/">
+            <p class="nav_item">ЦЕНЫ</p>
+        </RouterLink>
+        <RouterLink to="/">
+            <p class="nav_item">ПУНКТЫ ПРИЕМА</p>
+        </RouterLink>
+        <RouterLink to="/">
+            <p class="nav_item">О КОМПАНИИ</p>
+        </RouterLink>
+        <RouterLink to="/">
+            <p class="nav_item">КОНТАКТЫ</p>
+        </RouterLink>
     </div>
 
 </template>
 
 
-<style style lang="scss" scoped>
+<style lang="scss" scoped>
 @import '@/style/modules/mixins.scss';
 
 
@@ -68,7 +91,7 @@ import TheButton from '@/components/buttons/TheButton.vue'
 
 .header {
     width: 100%;
-    height: 11.1 rem;
+    height: 11.1rem;
     border-bottom: 1px solid #e8e8e8;
     display: flex;
     flex-direction: row;
@@ -169,5 +192,37 @@ import TheButton from '@/components/buttons/TheButton.vue'
 
 .ico {
     margin: 0 1.2rem 0 1.2rem;
+}
+
+
+
+.nav {
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 6.7rem;
+
+    .nav_item {
+        cursor: pointer;
+        position: relative;
+    }
+
+    .nav_item::after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #F95707;
+        content: "";
+    }
+
+    .nav_item:hover:after,
+    .nav_item:focus:after {
+        width: 100%;
+    }
 }
 </style>

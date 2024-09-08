@@ -1,5 +1,6 @@
 <script setup>
 import TheHeader from '@/components/TheHeader.vue'
+import TheMain from '@/components/TheMain.vue'
 </script>
 
 <template>
@@ -9,10 +10,11 @@ import TheHeader from '@/components/TheHeader.vue'
     </header>
 
     <main>
-
+      <TheMain />
     </main>
+    <footer></footer>
   </div>
 
 </template>
 
-<style scoped></style>
+<style lang="scss" scoped></style>
