@@ -133,6 +133,7 @@ import IconServicePayment from '@/shared/components/icons/service/IconServicePay
     display: flex;
     flex-direction: column;
     padding-left: 31.2rem;
+    justify-content: center;
 }
 
 .h1-main {
@@ -186,6 +187,10 @@ import IconServicePayment from '@/shared/components/icons/service/IconServicePay
         background-color: white;
         transition: 0.7s;
     }
+}
+
+.play {
+    margin-top: 5.2rem;
 }
 
 .play_icon {

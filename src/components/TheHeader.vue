@@ -86,9 +86,6 @@ import TheButton from '@/components/buttons/TheButton.vue'
 <style lang="scss" scoped>
 @import '@/style/modules/mixins.scss';
 
-
-
-
 .header {
     width: 100%;
     height: 11.1rem;
@@ -156,16 +153,19 @@ import TheButton from '@/components/buttons/TheButton.vue'
 }
 
 .search-label {
+    padding-left: 1rem;
     color: #F95707;
 }
 
 .search-overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 15%;
     display: flex;
+    justify-content: space-between;
+
     align-items: center;
+    font-size: 1.6rem;
 }
 
 .call-me_btn {
