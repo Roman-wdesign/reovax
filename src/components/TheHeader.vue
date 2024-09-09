@@ -95,8 +95,10 @@ import TheButton from '@/components/buttons/TheButton.vue'
     border-bottom: 1px solid #e8e8e8;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 31.2rem;
+    padding-right: 31.2rem;
 }
 
 .logo {
@@ -200,10 +202,12 @@ import TheButton from '@/components/buttons/TheButton.vue'
     border-bottom: 1px solid #e8e8e8;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 6.7rem;
+    padding-left: 31.2rem;
+    padding-right: 31.2rem;
 
     .nav_item {
         cursor: pointer;

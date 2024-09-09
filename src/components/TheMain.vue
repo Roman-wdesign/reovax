@@ -85,6 +85,28 @@ import IconServicePayment from '@/shared/components/icons/service/IconServicePay
             </div>
         </div>
     </section>
+    <section class="complex-section">
+        <div class="complex">
+            <h2 class="h2-complex">Комплексный<br>
+                сервис</h2>
+            <div class="complex-descr">
+                <p>Компания «ЭКОЛОМ» — ваш надежный партнер по переработке металлолома
+                    в Санкт-Петербурге. Мы стремимся к экологической ответственности, предлагая выгодные условия и
+                    профессиональный сервис на всех этапах работы. Гарантируем честность, прозрачность и высокие цены на
+                    металлолом!</p>
+                <p>Помимо переработки лома, наша компания предлагает комплексные услуги, включая оценку состава
+                    металлов,
+                    вывоз и демонтаж. Мы осуществляем демонтаж любой сложности –
+                    от кораблей и зданий до железнодорожных составов и путей. Наши опытные специалисты
+                    и собственный автопарк обеспечивают оперативность и надежность в выполнении задач.</p>
+                <p>Вместе с компанией «ЭКОЛОМ» вы получаете не только надежного партнера по переработке металлолома, но
+                    и
+                    комплексный сервис высочайшего уровня. Мы с удовольствием берем
+                    на себя все этапы работы — от приёмки до вывоза и демонтажа.</p>
+            </div>
+
+        </div>
+    </section>
 </template>
 
 
@@ -208,5 +230,38 @@ import IconServicePayment from '@/shared/components/icons/service/IconServicePay
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.complex-section {
+    display: flex;
+    justify-content: center;
+}
+
+.complex {
+    width: 129.6rem;
+    height: 39.4rem;
+    border-top: 2px solid #F95707;
+    border-bottom: 2px solid #F95707;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.h2-complex {
+    @include font-setup('OpenSans_Semibold', 4.2rem, 600);
+    font-size: 4.2rem;
+    color: #1F1F1F;
+}
+
+.complex-descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    height: 100%;
+    width: 50%;
 }
 </style>
