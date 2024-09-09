@@ -13,8 +13,9 @@ import IconServicePayment from '@/shared/components/icons/service/IconServicePay
 
             <div class="main-header_buttons">
                 <div class="main_header">
-                    <h1 class="h1-main">Приём лома чёрных<br> и цветных металлов<br> <span class="h1_green">в
-                            Санкт-Петербурге</span> </h1>
+                    <h1 class="h1-main">Приём лома чёрных<br> и цветных металлов<br>
+                        <span class="h1_green">в Санкт-Петербурге</span>
+                    </h1>
                 </div>
 
                 <div class="btn_group">
@@ -43,13 +44,14 @@ import IconServicePayment from '@/shared/components/icons/service/IconServicePay
                         <IconPlay class="play_icon" />
                     </g>
 
-                    <!-- Текст по кругу -->
+                    <!-- Текст по кругу с пробелами для симметрии -->
                     <text font-size="14" fill="#105720">
                         <textPath href="#textCircle" startOffset="50%" text-anchor="middle">
-                            Видео о компании «ЭКОЛОМ» Видео о компании «ЭКОЛОМ»
+                            Видео о компании «ЭКОЛОМ» &#160;&#160;&#160;&#160; Видео о компании «ЭКОЛОМ»
                         </textPath>
                     </text>
                 </svg>
+
             </div>
 
             <div class="main_picture">
@@ -130,6 +132,7 @@ import IconServicePayment from '@/shared/components/icons/service/IconServicePay
 .main-header_buttons {
     display: flex;
     flex-direction: column;
+    padding-left: 31.2rem;
 }
 
 .h1-main {
